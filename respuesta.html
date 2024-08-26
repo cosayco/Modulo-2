@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </head>
-<body>
+<body onload="redireccionar()">
     
   <head>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -21,10 +21,10 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Curriculum</a>
+              <a class="nav-link" href="#">Curriculum</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contacto</a>
+              <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://github.com/cosayco">GitHub</a>
@@ -40,7 +40,11 @@
   </head>
 
   <main class="mx-5">
-
+    <div class="alert alert-primary" role="alert">
+        <h4>Su datos han sido registrados.</h4>
+        <br>
+        <h6><span class="spinner-border spinner-border-sm" aria-hidden="true"></span><span role="status">Sera direccionado a la pagina de inicio...</span></h6>
+    </div>
   </main>
 
   <footer class="bg-body-tertiary text-center">

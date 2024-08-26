@@ -39,27 +39,24 @@
     </head>
 
     <main class="mx-5">
-        <button type="button" class="btn-primary"><i class="bi bi-apple">Apple</i></button>
-    
-    
         <div id="contacto" class="sm">
           <h2>Contacto</h2>
-          <form class="row g-3">
+          <form class="row g-3" action="respuesta.html">
             <div class="col-4">
               <label for="inputAddress" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="inputnombre" placeholder="Carlos">
+              <input type="text" class="form-control" id="inputnombre" placeholder="Carlos" required>
             </div>
             <div class="col-md-6">
               <label for="inputEmail4" class="form-label">Correo</label>
-              <input type="email" class="form-control" id="inputemail">
+              <input type="email" class="form-control" id="inputemail" placeholder="example@gmail.com" required>
             </div>
             <div class="col-6">
-              <label for="inputAddress2" class="form-label">Direccion</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              <label for="inputAddress2" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Coquimbo">
             </div>
             <div class="col-md-4">
               <label for="inputCity" class="form-label">Telefono</label>
-              <input type="text" class="form-control" id="inputCity">
+              <input type="text" class="form-control" id="inputCity" placeholder="912345678">
             </div>
             <div class="col-12">
               <button type="submit" class="btn btn-primary">Enviar Datos</button>
@@ -79,5 +76,6 @@
         </div>
     </footer>
 
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>
