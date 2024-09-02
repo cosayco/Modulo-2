@@ -1,17 +1,19 @@
 @media (max-width:500px) {
 
+    body{
+        background-color: grey;
+    }
+
     #main-index{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-style: italic;
         font-weight: normal;
         font-size: x-small;
     }
-
     #main-index h2 {
         font-size: 20px;
         font-stretch: condensed;
     }
-
     #main-index img {
         width: 100px;
     }
@@ -23,6 +25,10 @@
 }
 
 @media(min-width:501px) and (max-width:1278px) {
+
+    body{
+        background-color: black;
+    }
 
     #main-index{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
