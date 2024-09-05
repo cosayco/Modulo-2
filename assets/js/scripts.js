@@ -1,11 +1,18 @@
+//Formulario Contacto - Respuesta
 function redireccionar() {
     setTimeout("location.href='index.html'", 2000);
 }
 
-function agrandarICONO () {
-    document.getElementById('item-lista').style.fontsize = "30px";
+//Index Movimientos
+function mostrarDIV(ID){ 
+    document.getElementById(ID).style.display = "block";
 }
 
+function ocultarDIV(ID){ 
+    document.getElementById(ID).style.display = "none";
+}
+
+//Reloj
 function actualizarHora() {
     const reloj = document.getElementById('reloj');
     const ahora = new Date();
@@ -20,5 +27,4 @@ function agregarCero(numero) {
 }
 
 setInterval(actualizarHora, 1000);
-
 actualizarHora();
