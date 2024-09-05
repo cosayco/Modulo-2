@@ -41,11 +41,11 @@
   <main class="mx-1 my-1" id="main-index">
     <div class="container shadow p-3 mb-5 bg-body rounded-1 align-middle">
       <div class="row text-center">
-        <div class="col-4">
+        <div class="col-4 rounded-4" id="foto" onmouseenter="fondoRDIV('foto')" onmouseleave="fondoNDIV('foto')">
           <img class="rounded-circle" src="assets/img/linkedin.png">
         </div>
-        <div class="col-8 d-flex align-items-center justify-content-center">
-          <h2>Ingeniero en Gestión Informatica</h2>
+        <div class="col-8 rounded-4 d-flex align-items-center justify-content-center" id="titulo" onmouseenter="fondoRDIV('titulo')" onmouseleave="fondoNDIV('titulo')">
+          <h2>Ingeniero en Gestión Informática</h2>
         </div>
       </div>
     </div>
@@ -53,7 +53,7 @@
     <div class="container border border-3 border-primary rounded">
       <div class="row">
         <div class="col mx-1 my-1 border rounded-3 fondo">
-          <h5>Informacion Personal</h5>
+          <h5>Información Personal</h5>
           <h2>
             <a class="link-light" href="mailto:carlos.duran.palape@gmail.com"><i class="bi bi-envelope-at"></i></a>
             <a class="link-light" href="tel:+56955222482"><i class="bi bi-telephone"></i></a>
@@ -74,19 +74,19 @@
       </div>
       <div class="row d-flex justify-content-center">  
         <div class="col-10 mx-1 my-1 border rounded-3 fondo">
-          <p>- 12 años de experiencia en el area informatica. Adquiriendo conocimientos en nuevas tecnologias y proyectos varios:<i class="bi bi-caret-down-fill" onclick="mostrarDIV('experiencia')"></i></p>
-          <div class="col bg-info" id="experiencia" style="display: none;" >
-            Experiencia adquirida por Trabajar en varios lados. Realizando Cursos. Buscando en Google. Usando Copilot. A traves de Talento Digital.<i class="bi bi-caret-up-fill" onclick="ocultarDIV('experiencia')"></i>  
+          <p>- 12 años de experiencia en el área informática. Adquiriendo conocimientos en nuevas tecnologías y proyectos varios:<i class="bi bi-caret-down-fill" onclick="mostrarDIV('experiencia')"></i></p>
+          <div class="col fondo" id="experiencia" style="display: none;" >
+            Experiencia adquirida por Trabajar en varios lados. Realizando Cursos. Buscando en Google. Usando Copilot. A través de Talento Digital.<i class="bi bi-caret-up-fill" onclick="ocultarDIV('experiencia')"></i>  
           </div>
         </div>
         <div class="col-10 mx-1 my-1 border rounded-3 fondo">
-          <p>- Generacion Reportes PowerBI.<i class="bi bi-caret-down-fill" onclick="mostrarDIV('powerbi')"></i></p>
+          <p>- Generación Reportes PowerBI.<i class="bi bi-caret-down-fill" onclick="mostrarDIV('powerbi')"></i></p>
           <div class="col fondo" id="powerbi" style="display: none;" >
             <img src="assets/img/powerbi.png"><i class="bi bi-caret-up-fill" onclick="ocultarDIV('powerbi')"></i>  
           </div>
         </div>
         <div class="col-10 mx-1 my-1 border rounded-3 fondo">
-          <p>- Paginas en PHP<i class="bi bi-caret-down-fill" onclick="mostrarDIV('webphp')"></i></p>
+          <p>- Páginas en PHP<i class="bi bi-caret-down-fill" onclick="mostrarDIV('webphp')"></i></p>
           <div class="col fondo" id="webphp" style="display: none;" >
             <img src="assets/img/webphp.png"><i class="bi bi-caret-up-fill" onclick="ocultarDIV('webphp')"></i>  
           </div>

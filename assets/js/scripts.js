@@ -12,6 +12,15 @@ function ocultarDIV(ID){
     document.getElementById(ID).style.display = "none";
 }
 
+function fondoRDIV(ID){
+    document.getElementById(ID).style.background = "yellow";
+}
+
+function fondoNDIV(ID){
+    document.getElementById(ID).style.background = "white";
+}
+
+
 //Reloj
 function actualizarHora() {
     const reloj = document.getElementById('reloj');
